@@ -1,0 +1,105 @@
+.logo
+{ 
+    display: inline-block;
+    color: rgb(225,229,242);
+    letter-spacing: 3px;
+    font-size: 30px;
+    margin-left: 20%;
+    margin-top: 30px;
+}
+
+.navbar{
+    
+    color: rgb(225,229,242);
+    display: inline-block;
+    background-color: rgb(2,43,58);
+    width: 100%;
+}
+    
+.navItem
+{
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 20px;
+    margin-top: 10%;
+}
+
+.navSector
+{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+
+}
+
+.logoSector
+{
+    float: left; 
+}
+
+.fileSection
+{
+    
+    width: 100%;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-collapse: collapse;
+}
+#overlay {
+    position: fixed; 
+    display: none; 
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); 
+    z-index: 2; 
+    cursor: pointer; 
+  }
+.itemSection
+{
+    padding-top: 10px;
+}
+tr, th, td
+{
+    border:2px solid black;
+    
+}
+.titleSection
+{
+    width: 35%;
+}
+
+.filenameSection
+{
+    width: 40%;
+}
+.dateSection
+{
+    width: 25%;
+}
+
+.formBox
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+   
+}
+
+.uploadForm
+{
+    background: white;
+    padding: 20px;
+    border-radius: 25px;
+    border: 0px;
+
+}

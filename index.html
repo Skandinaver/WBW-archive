@@ -1,0 +1,61 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Way Back When Archive</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+
+<body>
+
+    <div id="overlay">
+
+        <div class="formBox">
+           
+            <form action="javascript:alert('Submitted!');" class="uploadForm">
+                <label for="category">Choose category</label><br>
+                <input type="radio" id="Movie" name="category" value="movie">
+                <label for="Movie">Movie</label>
+                <input type="radio" id="Literature" name="category" value="literature">
+                <label for="Literature">Literature</label>
+                <input type="radio" id="Art" name="category" value="art">
+                <label for="Art">Art</label><br><br>
+                <label for="inputTitle">Title</label><br>
+                <input type="text" id="inputTitle" name="inputTitle"><br><br>
+                <label for="inputFile">Upload your file</label><br>
+                <input type="file" id="inputFile" name="inputFile"><br><br>
+                <input type="submit" name="submit">
+                <input type="reset" value="cancel" onclick="uploadSheetdismiss()">
+            </form>"
+        </div>
+            
+    </div>
+
+    <div class="navbar">
+        <div class="logoSector">
+            <h2 class="logo"> WayBackWhen Archive</h2>
+        </div>
+
+        <div class="navSector">
+            <div onclick="popTable(parsmov)"class="navItem">Movies</div>
+            <div onclick="popTable(parslit)" class="navItem">Literature</div>
+            <div onclick="popTable(parsart)" class="navItem">Art</div>
+            <div onclick="uploadSheetPresent()" class="navItem">Upload</div>
+        </div>
+    </div>
+
+    <div class="itemSection"> 
+       <div class="fileSection">
+           <h3>Welcome to the WBW Archive</h3>
+           <p>
+               Welcome to the WayBackWhen Archive, here you can find collections of art, literature and film kept safe for future generations. <br>
+               Feel free to add to our ever growing collection.
+           </p>
+       </div>
+    </div>
+
+    <script src="functionality.js"></script>
+</body>
+</html>
