@@ -103,3 +103,35 @@ tr, th, td
     border: 0px;
 
 }
+
+.bottom-bar{
+    display: block;
+    background-color: rgb(2,43,58);
+    width: 99%;
+    position: fixed;
+    padding-top: 10px;
+    padding-bottom: 10px;   
+    bottom: 0;
+    color: rgb(225,229,242);
+    letter-spacing: 3px;
+    font-size: 10px;
+    text-align: center;
+}
+
+
+ 
+    
+
+
+
+a, a:link, a:visited a:hover
+{
+    color: rgb(225,229,242);;
+    text-decoration: none;
+}
+
+html{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
