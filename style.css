@@ -135,3 +135,15 @@ html{
     margin: 0;
     overflow: hidden;
 }
+
+a, a:link, a:visited a:hover
+{
+    color: rgb(225,229,242);;
+    text-decoration: none;
+}
+
+html{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
